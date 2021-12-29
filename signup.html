@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/signup.css">
+    <link rel="icon" href="./img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>&Clothing</title>
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue">
+                <div class="circle-clipper left">
+                <div class="circle"></div>
+                </div><div class="gap-patch">
+                <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="background"></div>
+    <nav class="nav-extended">
+        <div class="nav-wrapper">
+            <a href="./index.html" class="brand-logo center" style="color: #3a3a3a; font-size: 40px; margin-top: 10px;">&CLOTHING</a>
+            
+        </div>
+    </nav>
+    
+    <section class="section">
+        <div class="container">
+            <h4 class="login-logo">SIGNUP</h4>
+            <div class="row">
+                <form class="col s12" id="form-input">
+                    <div class="row">
+                    <div class="input-field col s12 m6">
+                        <input id="first_name" type="email" class="validate">
+                        <label for="first_name" class="black-text">Email</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                        <input id="last_name" type="password" class="validate">
+                        <label for="last_name" class="black-text">Password</label>
+                    </div>
+                    <div class="input-field col s12 m2">
+                        <input id="birthdate" type="date" class="validate">
+                        <label for="birthdate" class="black-text">Birthdate</label>
+                    </div>
+                    <div class="input-field col s12 m2">
+                        <input id="age" type="number" class="validate">
+                        <label for="age" class="black-text">Age</label>
+                    </div>
+                    </div>
+
+                    <div class="form-action">
+                        <div class="row">
+                            <div class="col s12">
+                                <button class="btn waves-effect waves-light grey darken-3" id="login-btn">Submit</button><br>
+                                <div class="account right-align">
+                                    <a href="./login.html" class="right">i already have an account?</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="page-footer grey darken-4">
+        <div class="container">
+            <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">ABOUT &CLOTHING</h5>
+                <p class="grey-text text-lighten-4"><b>&CLOTHING</b> is a topnotch clothing brand that translates fashion to the feeling that you want you to be through our clothing style.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">&CLOTHING</h5>
+                <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Merch</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Women</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Men</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Divided</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Kids</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">&You</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Care Service</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Accessories</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+            © 2021 Copyright
+            <a class="grey-text text-lighten-4 right" href="#!">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-facebook-messenger"></i>
+            </a>
+            </div>
+        </div>
+    </footer>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script 
+    src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        setTimeout(() => {
+            $(document).ready(function(){
+                $('.preloader').fadeOut();
+            })
+        }, 3000);
+    </script>
+</body>
+</html>
